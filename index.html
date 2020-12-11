@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Legit Survey</title>
+  </head>
+  <body>
+  <div id="header">
+    <div class="container">
+      <a id="header-title" href="index.html">My Blog</a>
+      <ul id="header-nav" class="navbar-links">
+        <li><a href="Home.html">Back to Website</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="mailto:snowtc96@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div class="post-container">
+        <div class="post">
+          <div class="post-author">
+            <img src="" alt=""> <!-add picture->
+            <span>Tyler Snow</span> <!-persons name->
+          </div>
+          <p class="post-date">8/7/20</p> <!-figure out how to pull correct date->
+          <h3 class="post-title"> Becoming a web developer </h3>
+            <p><form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+            </p>
+        </div>
+    </div>
+    <div class="post-container">
+        <div class="post">
+          <div class="post-author">
+            <img src="" alt=""> <!-add picture->
+            <span>Tyler Snow</span> <!-persons name->
+          </div>
+          <p class="post-date">8/7/20</p> <!-figure out how to pull correct date->
+          <h3 class="post-title"> Becoming a web developer </h3>
+            <p>Wow</p>
+            <p>This is crazy</p>
+        </div>
+    </div>
+  </div>
+  <div id="footer">
+      <div class="container">
+        <div class="column">
+          <h4>My Links</h4>
+          <p>
+            <a href="">Twitter</a> <!-facebook link->
+            <br>
+            <a href="">Faceebook</a>
+          </p>
+        </div>
+        <div class="column">
+          <h4>My Story</h4>
+          <p>I'm an aspiring web developer.</p>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>
